@@ -24,10 +24,10 @@ Section "Screen"
     Identifier "Screen0"
     Device     "Card0"
     Monitor    "Monitor0"
-    DefaultDepth 30
+    DefaultDepth 24
     SubSection "Display"
         Viewport 0 0
-        Depth 30
+        Depth 24
     EndSubSection
 EndSection
 
