@@ -124,6 +124,6 @@ class Viewer(object):
  
 if __name__ == '__main__':
     v = Viewer(depth=10)
-    v.display_image('gray_gradient_10.tiff')
+    v.display_image('images/gray_gradient_10.tiff')
     v._update()
     Gtk.main()
