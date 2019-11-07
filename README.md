@@ -10,4 +10,7 @@ To test HDR 4k display on linux
 $ sudo systemctl stop lightdm || sudo systemctl stop gdm
 $ sudo pkill Xorg
 $ ./Xdepth.sh
+
+# if you don't have viewer application for 10 bit color depth 
+$ python Viewer.py
 ```
