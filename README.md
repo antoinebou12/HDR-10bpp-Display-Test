@@ -67,6 +67,7 @@ xwininfo -root | grep Depth
 
 ```
 python3 Viewer.py
+python3 Viewer3.py # video support
 ```
 
 7. The viewer window will open. To display an image, run the following command:
@@ -88,7 +89,3 @@ startx -- -depth 24
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
-
-## Acknowledgments
-
-This test is based on the work of [Hans-Christoph Steiner](https://github.com/eighthave/HDR-10bpp-Display-Test). Thanks to Hans-Christoph Steiner for the original code and inspiration for this test.
